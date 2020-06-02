@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row topic-buttons">
+            <!-- insert the topic buttons here, I guess-->
+        </div>
+        <div class="row">
+            <form id="topic-form">
+                <label for="topic-input">New topic</label>
+                <input type="text" id="topic-input">
+                <br>
+                <!-- Button triggers new topic to be added -->
+                <input id="add-topic" class="btn btn-primary" type="submit" value="Click to add topic">
+            </form>
+        </div>
+        <br>
+        <div class="row">
+            <input class="btn btn-dark clearGifs" type="button" value="Clear">
+            <input class="btn btn-dark resetTopic" type="button" value="Reset Topics">
+            <!-- <input class="btn btn-dark favoriteDisplayButton" type="button" value="Favorites"> -->
+        </div>
+        <br>
+        <div class="row gifs">
+            <div class="favoriteSection"></div>
+            <!-- insert gif elements here -->
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

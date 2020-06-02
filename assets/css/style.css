@@ -1,0 +1,25 @@
+.btn {
+    margin: 2px;
+}
+
+.gifs{
+    text-align: center;
+}
+
+.topic-form {
+    margin: 2px;
+    background-color: green;
+}
+
+.imageContainer{
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+
+.favoriteSection{
+    display: none;
+}
+
+body {
+    background-image: url("../images/sun-pattern.png");
+}
